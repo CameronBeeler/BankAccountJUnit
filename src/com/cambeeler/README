@@ -1,0 +1,19 @@
+To create test class automatically in IntelliJ, select the class name, then hit 'alt-enter'.  Select the Test option.
+
+@BeforeAll (must have static type on method)
+@BeforeEach
+@Test
+...
+@Test
+@AfterEach
+@AfterAll
+
+Methods:
+assertEquals(value, testval, variance)
+assertThrows(throwtype.class, testmethod, message)
+assertTrue
+assertFalse
+
+no parameters in methods,
+to force fail
+to force pass
